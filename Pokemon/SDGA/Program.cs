@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using Engine;
+using System.Runtime.InteropServices;
 using System.Diagnostics;
 
 namespace Program
@@ -15,12 +16,13 @@ namespace Program
         {
             // Version check
             #if (!DEBUG)
+            Console.WriteLine("Checking for updates...");
+
             WebClient wc = new WebClient();
             byte[] raw = wc.DownloadData("https://raw.githubusercontent.com/PokemonAzure/PokemonAzure/master/version.txt");
 
             string webVersion = Encoding.UTF8.GetString(raw);
 
-            Console.WriteLine(webVersion + " " + GameWindow.VERSION);
             if (GameWindow.VERSION != webVersion)
             {
                 Console.WriteLine("There is an update available. \nDo you wish to update the game?");
@@ -37,6 +39,8 @@ namespace Program
                     Environment.Exit(0);
                 }
             }
+
+            Console.Clear();
             #endif
 
             new Game.Game();

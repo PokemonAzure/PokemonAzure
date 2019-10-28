@@ -33,14 +33,14 @@ namespace Game
         {
             if(Input.GetKey(Keyboard.Key.A))
             {
-                position.X += 1;
+                position.X += 4;
             }
         }
 
         protected override void Render()
         {
             DrawSprite(sprite, position);
-            DrawSprite(owo, new Vector2f(0,400));
+            DrawSprite(owo, new Vector2f(400,400));
         }
     }
 }

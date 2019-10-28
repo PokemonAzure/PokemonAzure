@@ -21,3 +21,4 @@ C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Updater\PokemonAzureUpdater.exe
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Updater\PokemonAzureUpdater.pdb
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Updater\PokemonAzureUpdater.exe.config
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Assets\Sprites\owo.png
