@@ -18,3 +18,23 @@ C:\Users\Gerbuiker\source\repos\Pokemon\SDGA\bin\Debug\Pokemon Azure.pdb
 C:\Users\Gerbuiker\source\repos\Pokemon\SDGA\obj\Debug\Pokemon Azure.exe
 C:\Users\Gerbuiker\source\repos\Pokemon\SDGA\obj\Debug\Pokemon Azure.pdb
 C:\Users\Gerbuiker\source\repos\Pokemon\SDGA\bin\Debug\Assets\Sprites\uwu.png
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Assets\Sprites\Player.png
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Assets\Sprites\uwu.png
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\csfml-audio-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\csfml-graphics-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\csfml-system-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\csfml-window-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\openal32.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\OpenTK.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Pokemon Azure.exe.config
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Pokemon Azure.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Pokemon Azure.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\sfml-audio.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\sfml-graphics.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\sfml-system.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\sfml-window.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.csprojAssemblyReference.cache
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.csproj.CoreCompileInputs.cache
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.csproj.CopyComplete
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.pdb

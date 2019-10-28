@@ -8,6 +8,7 @@ using SFML.Graphics;
 using SFML.Window;
 using SFML.System;
 using PokemonAzure.Engine;
+using System.Net;
 
 namespace Engine
 {
@@ -36,10 +37,12 @@ namespace Engine
         private float frameDelay;
 
         // Settings
-        static readonly string VERSION = "InDev 281019a";
+        public static readonly string VERSION = "InDev 271019a";
 
         public GameWindow(uint _width, uint _height)
         {
+            
+
             // Content call
             ContentManager.Setup();
             LoadContent();
@@ -93,7 +96,7 @@ namespace Engine
                 if (updateTime >= frameDelay)
                 {
                     updateTime = 0;
-                    
+
                     Update();
 
                     Window.Clear(Color.Black);

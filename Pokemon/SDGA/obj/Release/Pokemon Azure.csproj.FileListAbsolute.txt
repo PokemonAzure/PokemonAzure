@@ -1,0 +1,19 @@
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Assets\Sprites\Player.png
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Assets\Sprites\uwu.png
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\csfml-audio-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\csfml-graphics-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\csfml-system-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\csfml-window-2.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\openal32.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\OpenTK.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Pokemon Azure.exe.config
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Pokemon Azure.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Pokemon Azure.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\sfml-audio.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\sfml-graphics.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\sfml-system.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\sfml-window.dll
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.csproj.CoreCompileInputs.cache
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.csproj.CopyComplete
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.pdb
