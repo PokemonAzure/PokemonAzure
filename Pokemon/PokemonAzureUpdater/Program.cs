@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO.Compression;
+using System.IO;
 
 namespace PokemonAzureUpdater
 {
@@ -12,55 +15,24 @@ namespace PokemonAzureUpdater
         {
             Console.Title = "Pokemon Azure Updater";
 
-            Console.WriteLine("Starting the update...");
+            Console.WriteLine("Starting the download...");
 
+            WebClient client = new WebClient();
+            client.DownloadFile("https://github.com/PokemonAzure/PokemonAzure/blob/master/Builds/281019a.zip?raw=true","game.zip");
 
+            Console.WriteLine("Download complete!");
+            Console.WriteLine("Starting exctraction...");
+
+            ZipFile.ExtractToDirectory(@"./version.zip", @"./game");
+
+            Console.WriteLine("Extraction Complete!");
+            Console.WriteLine("Cleaning up...");
+
+            File.Delete(@"./version.zip");
+
+            Console.WriteLine("Done! Press any key to exit.");
 
             Console.ReadKey();
-        }
-
-        public static void downloadFile(string sourceURL, string destinationPath)
-        {
-            long fileSize = 0;
-            int bufferSize = 1024;
-            bufferSize *= 1000;
-            long existLen = 0;
-
-            System.IO.FileStream saveFileStream;
-            if (System.IO.File.Exists(destinationPath))
-            {
-                System.IO.FileInfo destinationFileInfo = new System.IO.FileInfo(destinationPath);
-                existLen = destinationFileInfo.Length;
-            }
-
-            if (existLen > 0)
-                saveFileStream = new System.IO.FileStream(destinationPath,
-                                                          System.IO.FileMode.Append,
-                                                          System.IO.FileAccess.Write,
-                                                          System.IO.FileShare.ReadWrite);
-            else
-                saveFileStream = new System.IO.FileStream(destinationPath,
-                                                          System.IO.FileMode.Create,
-                                                          System.IO.FileAccess.Write,
-                                                          System.IO.FileShare.ReadWrite);
-
-            System.Net.HttpWebRequest httpReq;
-            System.Net.HttpWebResponse httpRes;
-            httpReq = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create(sourceURL);
-            httpReq.AddRange((int)existLen);
-            System.IO.Stream resStream;
-            httpRes = (System.Net.HttpWebResponse)httpReq.GetResponse();
-            resStream = httpRes.GetResponseStream();
-
-            fileSize = httpRes.ContentLength;
-
-            int byteSize;
-            byte[] downBuffer = new byte[bufferSize];
-
-            while ((byteSize = resStream.Read(downBuffer, 0, downBuffer.Length)) > 0)
-            {
-                saveFileStream.Write(downBuffer, 0, byteSize);
-            }
         }
     }
 }
