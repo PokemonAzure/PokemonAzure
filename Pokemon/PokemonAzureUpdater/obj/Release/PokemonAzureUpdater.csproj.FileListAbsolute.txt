@@ -1,0 +1,7 @@
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\bin\Release\PokemonAzureUpdater.exe.config
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\bin\Release\PokemonAzureUpdater.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\bin\Release\PokemonAzureUpdater.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\obj\Release\PokemonAzureUpdater.csproj.CoreCompileInputs.cache
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\obj\Release\PokemonAzureUpdater.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\obj\Release\PokemonAzureUpdater.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\PokemonAzureUpdater\obj\Release\PokemonAzureUpdater.csprojAssemblyReference.cache

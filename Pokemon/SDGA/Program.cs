@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using Engine;
+using System.Diagnostics;
 
 namespace Program
 {
@@ -13,7 +14,7 @@ namespace Program
         static void Main(string[] args)
         {
             // Version check
-            #if (DEBUG)
+            #if (!DEBUG)
             WebClient wc = new WebClient();
             byte[] raw = wc.DownloadData("https://raw.githubusercontent.com/PokemonAzure/PokemonAzure/master/version.txt");
 
@@ -31,7 +32,8 @@ namespace Program
                     Console.WriteLine("By updating the game we will close the game and open the updater\npress any key to continue");
                     Console.ReadKey();
 
-
+                    Process.Start(Environment.CurrentDirectory + "/Updater/PokemonAzureUpdater.exe");
+                    Environment.Exit(0);
                 }
             }
             #endif

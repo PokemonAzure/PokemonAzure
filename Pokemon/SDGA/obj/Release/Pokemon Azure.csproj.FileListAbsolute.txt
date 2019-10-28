@@ -17,3 +17,7 @@ C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.csproj.CopyComplete
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.exe
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Release\Pokemon Azure.csprojAssemblyReference.cache
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Updater\PokemonAzureUpdater.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Updater\PokemonAzureUpdater.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Release\Updater\PokemonAzureUpdater.exe.config
