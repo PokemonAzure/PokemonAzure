@@ -14,6 +14,9 @@ namespace Engine
 {
     abstract class GameWindow : GameComponent
     {
+        // Settings
+        public static readonly string VERSION = "InDev 291019a";
+
         // Render window
         private RenderWindow Window;
 
@@ -36,8 +39,7 @@ namespace Engine
         private float currentFPS;
         private float frameDelay;
 
-        // Settings
-        public static readonly string VERSION = "InDev 271019a";
+        
 
         public GameWindow(uint _width, uint _height)
         {

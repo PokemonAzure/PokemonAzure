@@ -71,6 +71,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Sprites\owo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Sprites\Player.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

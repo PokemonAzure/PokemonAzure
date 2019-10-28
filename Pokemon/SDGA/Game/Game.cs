@@ -19,13 +19,14 @@ namespace Game
         public Game() : base(240 * 4, 160 * 4) { }
 
         Sprite sprite;
+        Sprite owo;
 
         Vector2f position = new Vector2f();
 
         protected override void LoadContent()
         {
             sprite = LoadSprite("Sprites/Player.png");
-
+            owo = LoadSprite("Sprites/owo.png");
         }
 
         protected override void Update()
@@ -39,6 +40,7 @@ namespace Game
         protected override void Render()
         {
             DrawSprite(sprite, position);
+            DrawSprite(owo, new Vector2f(0,400));
         }
     }
 }

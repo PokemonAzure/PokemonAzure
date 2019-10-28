@@ -38,3 +38,7 @@ C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Po
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.csproj.CopyComplete
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.exe
 C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\obj\Debug\Pokemon Azure.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Updater\PokemonAzureUpdater.exe
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Updater\PokemonAzureUpdater.pdb
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Updater\PokemonAzureUpdater.exe.config
+C:\Users\Gerbuiker\Documents\PokemonAzure\PokemonAzure\Pokemon\SDGA\bin\Debug\Assets\Sprites\owo.png
