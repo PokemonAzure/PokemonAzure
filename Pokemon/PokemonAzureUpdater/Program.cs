@@ -11,18 +11,34 @@ namespace PokemonAzureUpdater
 {
     class Program
     {
-        static string GamePath = "C:\\Users\\Gerbuiker\\Desktop\\Pokemon Azure";
+        static string GamePath;
 
+        // This code is shit, but it works, so don't touch it
         static void Main(string[] args)
         {
-            GamePath = Directory.GetParent(Environment.CurrentDirectory).ToString();
+            DirectoryInfo directory = new DirectoryInfo(Environment.CurrentDirectory);
+
+            if(directory.Name != "Pokemon Azure")
+                GamePath = Directory.GetParent(Environment.CurrentDirectory).FullName;
+            else
+                GamePath = directory.FullName;
+
+            directory = new DirectoryInfo(GamePath);
+
+            if(directory.Name != "Pokemon Azure" && File.Exists(directory.FullName + "\\Pokemon Azure.exe"))
+            {
+                Console.WriteLine("Pokemon Azure Folder was not found...\nPress any key to exit");
+                Console.ReadKey();
+                Environment.Exit(-1);
+            }
 
             Console.Title = "Pokemon Azure Updater";
 
+            #if(!DEBUG)
             Console.WriteLine("Starting the download...");
 
             WebClient client = new WebClient();
-            client.DownloadFile("https://github.com/PokemonAzure/PokemonAzure/blob/master/Builds/281019a.zip?raw=true", "game.zip");
+            client.DownloadFile("https://github.com/PokemonAzure/PokemonAzure/blob/master/Builds/281019a.zip?raw=true", GamePath + "\\Updater\\game.zip");
 
             Console.WriteLine("Download complete.");
             Console.WriteLine("Removing the old version (no worry, your saves are safe! hopefully...)");
@@ -33,16 +49,17 @@ namespace PokemonAzureUpdater
             Console.WriteLine("Removed old version.");
             Console.WriteLine("Starting exctraction...");
 
-            ZipFile.ExtractToDirectory(@"./game.zip", GamePath);
+            ZipFile.ExtractToDirectory(GamePath + "/Updater/game.zip", GamePath);
 
             Console.WriteLine("Extraction Complete.");
             Console.WriteLine("Cleaning up...");
 
-            File.Delete(@"./game.zip");
+            File.Delete(GamePath + "/Updater/game.zip");
 
             Console.WriteLine("Done! Press any key to exit.");
 
             Console.ReadKey();
+            #endif
         }
 
         public static void DeleteDirectory(string target_dir)

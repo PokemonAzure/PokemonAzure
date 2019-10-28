@@ -20,6 +20,7 @@ namespace Program
 
             string webVersion = Encoding.UTF8.GetString(raw);
 
+            Console.WriteLine(webVersion + " " + GameWindow.VERSION);
             if (GameWindow.VERSION != webVersion)
             {
                 Console.WriteLine("There is an update available. \nDo you wish to update the game?");
