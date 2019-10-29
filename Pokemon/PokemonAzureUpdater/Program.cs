@@ -38,7 +38,9 @@ namespace PokemonAzureUpdater
             Console.WriteLine("Starting the download...");
 
             WebClient client = new WebClient();
-            client.DownloadFile("https://github.com/PokemonAzure/PokemonAzure/blob/master/Builds/281019a.zip?raw=true", GamePath + "\\Updater\\game.zip");
+            byte[] raw = client.DownloadData("https://raw.githubusercontent.com/PokemonAzure/PokemonAzure/master/version.txt");
+            string webVersion = Encoding.UTF8.GetString(raw);
+            client.DownloadFile("https://github.com/PokemonAzure/PokemonAzure/blob/master/Builds/" + webVersion + ".zip?raw=true", GamePath + "\\Updater\\game.zip");
 
             Console.WriteLine("Download complete.");
             Console.WriteLine("Removing the old version (no worry, your saves are safe! hopefully...)");

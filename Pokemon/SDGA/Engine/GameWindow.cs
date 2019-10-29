@@ -15,7 +15,7 @@ namespace Engine
     abstract class GameWindow : GameComponent
     {
         // Settings
-        public static readonly string VERSION = "InDev 291019b";
+        public static readonly string VERSION = "InDev 291019c";
 
         // Render window
         private RenderWindow Window;
